@@ -13,31 +13,54 @@
     header div {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         padding-left: 1.5rem;
     }
     header ul {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
         padding-right: 1.5rem;
     }
     header li {
         padding-left: 1rem;
+    }
+    @media only screen and (max-width: 550px) {
+        header ul {
+            display: none;
+        }
+        header span {
+            display: none;
+        }
+        header {
+            width: 100%;
+            justify-content: space-around;
+            margin: auto;
+        }
+        header div {
+            padding-right: 1.5rem;
+        }
+        #desktopOnly {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 550px){
+        .mobileOnly {
+            display: none;
+        }
     }
 
 /* new section*/
     .startHere {
         background-color: #d8d8d8;
         display: flex;
+        flex-wrap: wrap;
     }
-    .startHere h1 {
+    .shRight h1 {
         font-size: 2.5rem;
         line-height: 3rem;
         font-weight: bold;
         padding: 2rem 0;
     }
-    .startHere p {
+    .shRight p {
         font-size: 1.3rem;
         font-weight: bold;
         padding-bottom: 2rem;
@@ -62,6 +85,22 @@
         text-align: center;
         background-color: #4a4a4a;
         padding: 0.5rem 0;
+    }
+
+    @media only screen and (max-width: 550px) {
+        .imgDiv {
+            height: auto;
+            max-width: 100%;
+            padding: 0 0;
+        }
+        .shRight {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            width: 100%;
+        }
+        .startHere {
+            padding-bottom: 2rem;
+        }
     }
 
     /* new section*/
@@ -136,6 +175,14 @@
     .thinny {
         font-weight: lighter;
         color: d8d8d8;
+    }
+    @media only screen and (max-width: 550px) {
+        .threeSect {
+            width: 100%;
+        }
+        .topic {
+            flex-direction: column;
+        }
     }
 
     /* new section*/
@@ -219,6 +266,13 @@
     }
     .thesisSect p {
         line-height: 1.5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        .thesisSect {
+            max-width: 100%;
+            padding: 0 0;
+        }
     }
 
     footer {
