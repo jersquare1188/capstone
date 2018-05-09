@@ -1,6 +1,8 @@
     html {
         font-size: 16px;
         font-family: sans-serif;
+        line-height: 1.4;
+        color: #4a4a4a;
     }
     header {
         display: flex;
@@ -26,7 +28,7 @@
 
 /* new section*/
     .startHere {
-        background-color: lightGray;
+        background-color: #d8d8d8;
         display: flex;
     }
     .startHere h1 {
@@ -36,7 +38,7 @@
         padding: 2rem 0;
     }
     .startHere p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: bold;
         padding-bottom: 2rem;
         line-height: 1.7rem;
@@ -58,7 +60,7 @@
     .shButton {
         color: white;
         text-align: center;
-        background-color: #666666;
+        background-color: #4a4a4a;
         padding: 0.5rem 0;
     }
 
@@ -74,6 +76,18 @@
         max-width: 60%;
         padding: 2rem 1.5rem;
     }
+    .blogMain h1 {
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        font-weight: bold;
+    }
+    .blogMain p {
+        line-height: 1.5rem;
+    }
+    .sig {
+        padding: 2rem 0;
+    }
     .blogMain img {
         width: 100%;
     }
@@ -84,6 +98,29 @@
     }
     .topic {
         display: flex;
+        border: 1px solid #d8d8d8;
+    }
+    .topicCon {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .topicCon h1 {
+        font-size: 1.4rem;
+    }
+    .topicCon p {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        padding: 0.5rem 0;
+        line-height: 1.5rem;
+    }
+    .topicCon a {
+            font-size: 0.9rem;
+            color: #4a90e2;
+    }
+    .topic:hover {
+        background-color: #d8d8d8;
     }
     .blogImg {
         padding: 1rem;
@@ -92,4 +129,108 @@
     }
     .blogImg img {
         width: 100%;
+    }
+    .boldy {
+        font-weight: bold;
+    }
+    .thinny {
+        font-weight: lighter;
+        color: d8d8d8;
+    }
+
+    /* new section*/
+
+    .startLearning {
+        background-color: #d8d8d8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .startLearning h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #666666;
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    .startLearning p {
+        color: #767676;
+    }
+    .startLearning h4 {
+        color: #767676;
+    }
+    .sixSect {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 0.5rem 3.5rem;
+        color: #666666;
+    }
+    .courses img {
+        max-width: 100%;
+    }
+    .courses {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 0 1rem;
+        background-color: white;
+    }
+    .courses h2 {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .courses h4 {
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+    }
+    .courses p {
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .thesis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .thesisTitle {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 2rem 0;
+    }
+    .thesisSect {
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        padding: 0 1.5rem;
+    }
+    .thesisSect video {
+        width: 100%;
+    }
+    .thesisSect h2 {
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .thesisSect p {
+        line-height: 1.5rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid lightgray;
+    }
+    footer ul {
+        display: flex;
+    }
+    footer li {
+        padding-left: 1rem;
     }
