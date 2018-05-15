@@ -1,6 +1,6 @@
     html {
         font-size: 16px;
-        font-family: sans-serif;
+        font-family: 'Muli', sans-serif;
         line-height: 1.4;
         color: #4a4a4a;
     }
@@ -174,7 +174,7 @@
     }
     .thinny {
         font-weight: lighter;
-        color: d8d8d8;
+        color: #b0b0b0;
     }
     @media only screen and (max-width: 550px) {
         .threeSect {
