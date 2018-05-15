@@ -183,6 +183,18 @@
         .topic {
             flex-direction: column;
         }
+        .blogImg {
+            width: auto;
+        }
+        .topicCon {
+            padding-left: 1rem;
+        }
+        .topicCon h1 {
+            padding-left: 1rem;
+        }
+        .topicCon a {
+            padding-bottom: 2rem;
+        }
     }
 
     /* new section*/
@@ -232,10 +244,14 @@
         font-size: 1.5rem;
     }
     .courses h4 {
+        font-size: 1.15rem;
+        font-weight: lighter;
         padding: 0.5rem 1rem;
         text-transform: uppercase;
     }
     .courses p {
+        font-weight: lighter;
+        line-height: 1.4;
         padding-left: 1rem;
         padding-bottom: 1.5rem;
     }
@@ -272,6 +288,30 @@
         .thesisSect {
             max-width: 100%;
             padding: 0 0;
+        }
+        .thesisSect video {
+            padding-bottom: 2rem;
+        }
+        .sixSect {
+            width: 100%;
+            flex-direction: column;
+            padding-top: 0;
+            padding: 0;
+            justify-content: center;
+            margin: 0 1rem;
+        }
+        .startLearning {
+            background-color: #ffffff;
+        }
+        .courses {
+            padding: 0 0;
+            margin: 0;
+        }
+        .courses h2 {
+            width: auto;
+            background-color: #d8d8d8;
+            padding-bottom: 1.5rem;
+            margin-bottom: 0.5rem;
         }
     }
 
